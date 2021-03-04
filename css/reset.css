@@ -1,0 +1,3 @@
+#header > div.main_profile > div > div:nth-child(1) > div > div > input.title_block-button.button_edit.position-absolute {
+	transform: translateX(190px);
+}

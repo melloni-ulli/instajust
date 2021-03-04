@@ -1,0 +1,264 @@
+@media only screen and (max-width: 1300px) {
+	.header_social {
+		display: none!important;
+	}
+
+	.footer_social {
+		display: flex!important;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+	.nats {
+		display: none;
+	}
+
+	.title_block-h1 {
+		text-align: center;
+		font-size: 58px;
+		line-height: 70px;
+	}
+
+	.title_block {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.tilte_block-search {
+		width: 100%;
+		justify-content: center;
+	}
+
+	.title_block-button {
+		position: absolute;
+		right: 0;
+		transform: translateX(-136px)!important;
+	}
+
+	.title_block-tags {
+		margin-bottom: 50px;
+	}
+
+	#header > nav > div > div > div:nth-child(2) {
+		display: flex;
+		justify-content: center;
+	}
+
+	.trending_title {
+		text-align: center;
+		font-size: 38px;
+		line-height: 46px;
+	}
+
+	body > section.trending_inst > div .row {
+		display: grid!important;
+		grid-template-columns: 1fr 1fr 1fr;
+		margin-top: 0!important;
+	}
+
+	body > section.trending_inst > div .row:first-child {
+		grid-template-columns: 1fr;
+	}
+
+	body > section.trending_inst > div .row .col-lg-2 {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		margin-top: 50px;
+	}
+
+	.trending_title {
+		margin-bottom: 0;
+	}
+
+	.arrow {
+		display: none;
+	}
+
+	body > section.tags > div > div {
+		flex-wrap: nowrap;
+		overflow: hidden;
+	}
+
+	body > section.tags > div > div a {
+		margin-left: 15px;
+	}
+
+	footer,
+	body > footer > div > div {
+		flex-wrap: nowrap!important;
+	}
+
+	.footer_root {
+		display: flex;
+		justify-content: flex-end;
+	}
+
+	.account_news div.row.d-flex.align-items-center.justify-content-between {
+		overflow: visible;
+	}
+
+	.account_news div.row.d-flex.align-items-center.justify-content-between div:nth-child(2),
+	.account_news div.row.d-flex.align-items-center.justify-content-between div:nth-child(3),
+	.account_news div.row.d-flex.align-items-center.justify-content-between div:nth-child(4) {
+		display: none;
+	}
+
+	.article__item {
+		flex: 0 1 47%;
+	}
+
+	.custom_container {
+		max-width: 100%!important;
+	}
+
+	.third_column {
+		display: none;
+	}
+
+	.custom_nut {
+		display: flex!important;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.title_block-button {
+		transform: translateX(-46px)!important;
+	}
+
+	.title_block-span {
+		text-align: center;
+	}
+
+	body > section.trending_inst > div .row {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.title_block-h1 {
+		font-size: 34px;
+		line-height: 41px;
+	}
+
+	.title_block-tags {
+		justify-content: center!important;
+		align-items: center;
+	}
+
+	.title_block-tags a {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 7.5px;
+	}
+
+	.footer_root {
+		justify-content: center;
+		margin-top: 25px;
+	}
+
+	body > footer > div > div {
+		flex-direction: column;
+	}
+
+	.footer_menu {
+		flex-direction: column;
+	}
+
+	.footer_menu li {
+		margin-left: 0;
+		text-align: center;
+		margin-top: 25px;
+	}
+
+	.footer_menu li:first-child {
+		margin-top: 0;
+	}
+
+	.trending_title {
+		font-size: 28px;
+		line-height: 34px;
+	}
+
+	.trending_inst--image img {
+		max-width: 100%;
+	}
+
+	.trending {
+		padding: 12px 20px;
+	}
+
+	.title_block-button {
+		transform: translateX(-15px)!important;
+	}
+
+	.social img {
+		max-width: 50%;
+	}
+
+	.account_info {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.article__item {
+		flex: 0 1 100%;
+	}
+
+	.account_info div {
+		margin-left: 0;
+		margin-top: 30px;
+	}
+
+	.account_info div:first-child {
+		margin-top: 0;
+	}
+
+	.account_description span {
+		margin-bottom: 30px;
+	}
+	.account_news div.row.d-flex.align-items-center.justify-content-between div:nth-child(2),
+	.account_news div.row.d-flex.align-items-center.justify-content-between div:nth-child(3),
+	.account_news div.row.d-flex.align-items-center.justify-content-between div:nth-child(4),
+	.account_news div.row.d-flex.align-items-center.justify-content-between div:nth-child(5) {
+		display: none;
+	}
+
+	body > section.following > div > div > div {
+		width: 100%!important;
+		max-width: 50%;
+	}
+
+	.post_info--popularity {
+		margin-top: 20px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	body > section.account_article > div > div {
+		flex-wrap: wrap;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	body > section.following > div > div > div {
+		width: 100%!important;
+		max-width: 100%;
+		margin-top: 30px;
+	}
+
+	.post_block,
+	.post_comment--people {
+		padding: 20px;
+	}
+
+	.article_info {
+		font-size: 14px;
+	}
+	.article-comment {
+		margin-left: 12px;
+	}
+}
