@@ -387,7 +387,7 @@ a.actived {
 }
 
 .tag_button {
-	padding-top: 180px;
+	padding-top: 50px;
 	padding-bottom: 180px;
 }
 
@@ -476,6 +476,7 @@ a.actived {
 	display: flex;
 	margin: 15px 10px 15px 10px;
 	flex: 0 1 31%;
+	float: left;
 }
 .article__card {
 	display: flex;
@@ -490,6 +491,18 @@ a.actived {
 	display: flex;
 	flex-direction: column;
 	flex: 1 1 auto;
+	height: 100%;
+	max-height: 353px;
+}
+.article__advert {
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.article__advert img {
+	width: 100%;
+	height: 100%;
 }
 
 .article__name {
@@ -498,13 +511,18 @@ a.actived {
 }
 
 .article__text {
-	margin-bottom: 55px;
+	margin-bottom: 82px;
 	max-width: 300px;
 	flex: 1 1 auto;
+  	position: relative; 
 }
-
-.article__text span {
+.text-wrapper {
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 5;
+	-webkit-box-orient: vertical;
 	line-height: 30px;
+	height: 150px;
 }
 
 .article__info {
@@ -528,6 +546,9 @@ a.actived {
 
 .article__image img {
 	width: 100%;
+	height: 100%;
+	max-height: 353px;
+	object-fit: cover;
 	border: 1px solid #BDC2D2;
 	border-radius: 5px 5px 0 0;
 	border-bottom: 0;
@@ -736,4 +757,25 @@ body > section.following > div > div > div {
 }
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
 	background: #ffffff;
+}
+.advert__top {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+.advert__top--post {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+.advert__middle {
+	position: relative;
+	margin: 0 auto;
+	clear: both;
+}
+.advert__footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	z-index: 9999999;
 }
